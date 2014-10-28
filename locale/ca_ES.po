@@ -1,0 +1,23 @@
+# 
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:timesheet.work,list_price:"
+msgid "List Price"
+msgstr "Preu de venda"
+
+msgctxt "field:timesheet.work,product:"
+msgid "Product"
+msgstr "Producte"
+
+msgctxt "field:timesheet.work,revenue:"
+msgid "Revenue"
+msgstr "Ingressos"
+
+msgctxt "view:product.template:"
+msgid "Review"
+msgstr "Revisió"
+
+msgctxt "view:timesheet.work:"
+msgid "Cost & Revenue"
+msgstr "Costos & Ingressos"
