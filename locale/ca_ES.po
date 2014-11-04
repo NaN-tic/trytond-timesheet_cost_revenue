@@ -2,6 +2,14 @@
 msgid ""
 msgstr "Content-Type: text/plain; charset=utf-8\n"
 
+msgctxt "field:timesheet.line,cost:"
+msgid "Cost"
+msgstr "Cost"
+
+msgctxt "field:timesheet.line,currency_digits:"
+msgid "Currency Digits"
+msgstr "Decimals de moneda"
+
 msgctxt "field:timesheet.work,list_price:"
 msgid "List Price"
 msgstr "Preu de venda"
@@ -17,6 +25,10 @@ msgstr "Ingressos"
 msgctxt "view:product.template:"
 msgid "Review"
 msgstr "Revisió"
+
+msgctxt "view:timesheet.line:"
+msgid "Cost"
+msgstr "Cost"
 
 msgctxt "view:timesheet.work:"
 msgid "Cost & Revenue"
