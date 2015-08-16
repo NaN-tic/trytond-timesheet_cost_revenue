@@ -13,7 +13,6 @@ The COPYRIGHT file at the top level of this repository contains the full copyrig
         <label name="cost"/>
         <field name="cost"/>
         <label name="hours"/>
-        <field name="hours" widget="float_time"
-            float_time="company_work_time"/>
+        <field name="hours" float_time="company_work_time"/>
     </xpath>
 </data>
