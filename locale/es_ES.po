@@ -10,6 +10,14 @@ msgctxt "field:timesheet.line,currency_digits:"
 msgid "Currency Digits"
 msgstr "Decimales de moneda"
 
+msgctxt "field:timesheet.work,cost:"
+msgid "Cost"
+msgstr "Coste"
+
+msgctxt "field:timesheet.work,currency_digits:"
+msgid "Currency Digits"
+msgstr "Dígitos moneda"
+
 msgctxt "field:timesheet.work,list_price:"
 msgid "List Price"
 msgstr "Precio de venta"
