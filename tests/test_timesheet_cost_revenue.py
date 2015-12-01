@@ -1,25 +1,14 @@
-#!/usr/bin/env python
-# This file is part timesheet_cost_revenue module for Tryton.
-# The COPYRIGHT file at the top level of this repository contains
-# the full copyright notices and license terms.
+# This file is part of the timesheet_cost_revenue module for Tryton.
+# The COPYRIGHT file at the top level of this repository contains the full
+# copyright notices and license terms.
 import unittest
 import trytond.tests.test_tryton
-from trytond.tests.test_tryton import test_view, test_depends
+from trytond.tests.test_tryton import ModuleTestCase
 
 
-class TimesheetCostRevenueTestCase(unittest.TestCase):
+class TimesheetCostRevenueTestCase(ModuleTestCase):
     'Test Timesheet Cost Revenue module'
-
-    def setUp(self):
-        trytond.tests.test_tryton.install_module('timesheet_cost_revenue')
-
-    def test0005views(self):
-        'Test views'
-        test_view('timesheet_cost_revenue')
-
-    def test0006depends(self):
-        'Test depends'
-        test_depends()
+    module = 'timesheet_cost_revenue'
 
 
 def suite():
@@ -27,6 +16,3 @@ def suite():
     suite.addTests(unittest.TestLoader().loadTestsFromTestCase(
         TimesheetCostRevenueTestCase))
     return suite
-
-if __name__ == '__main__':
-    unittest.TextTestRunner(verbosity=2).run(suite())
