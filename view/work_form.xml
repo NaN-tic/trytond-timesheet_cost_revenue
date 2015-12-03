@@ -12,7 +12,5 @@ The COPYRIGHT file at the top level of this repository contains the full copyrig
         <field name="revenue"/>
         <label name="cost"/>
         <field name="cost"/>
-        <label name="hours"/>
-        <field name="hours"/>
     </xpath>
 </data>
