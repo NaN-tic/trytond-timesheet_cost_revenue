@@ -11,10 +11,10 @@ from trytond.pool import Pool, PoolMeta
 from trytond.tools import reduce_ids
 
 __all__ = ['Work']
-__metaclass__ = PoolMeta
 
 
 class Work:
+    __metaclass__ = PoolMeta
     __name__ = 'timesheet.work'
     product = fields.Many2One('product.product', 'Product',
         domain=[
@@ -45,7 +45,7 @@ class Work:
         Employee = pool.get('company.employee')
         Line = pool.get('timesheet.line')
         transaction = Transaction()
-        cursor = transaction.connection.cursor
+        cursor = transaction.connection.cursor()
         in_max = cursor.IN_MAX
 
         works = cls.search([

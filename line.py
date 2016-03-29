@@ -8,10 +8,10 @@ from trytond.pyson import Eval
 from trytond.pool import PoolMeta
 
 __all__ = ['Line']
-__metaclass__ = PoolMeta
 
 
 class Line():
+    __metaclass__ = PoolMeta
     __name__ = 'timesheet.line'
     cost = fields.Function(fields.Numeric('Cost',
             digits=(16, Eval('currency_digits', 2)),
